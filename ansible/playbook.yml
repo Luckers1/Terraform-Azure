@@ -1,0 +1,15 @@
+---
+- name: Configuração do Homelab DevOps
+  hosts: all
+  become: true
+
+  roles:
+    - common
+    - nginx
+    - docker
+
+  tasks:
+    - name: Registro final de configuração
+      copy:
+        dest: "/home/{{ usuario }}/setup_complete.txt"
+        content: "Setup finalizado em {{ ansible_date_time.date }}"

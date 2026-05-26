@@ -1,0 +1,10 @@
+# Copie este arquivo para terraform.tfvars e preencha com seus valores reais
+# cp terraform.tfvars.example terraform.tfvars
+#
+# ATENÇÃO: terraform.tfvars está no .gitignore — nunca commitar com dados reais.
+
+location              = "westus"
+resource_group_name   = "rg-homelab-devops"
+vm_name               = "vm-devops-lab"
+admin_username        = "seu-usuario"
+ssh_public_key_path   = "~/.ssh/id_rsa.pub"

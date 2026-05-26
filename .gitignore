@@ -1,0 +1,21 @@
+# Terraform
+
+.terraform/
+.terraform.local.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+
+# Ansible
+
+ansible/*.retry
+ansible/inventory.ini
+
+#SSH
+
+*.pem
+*.key
