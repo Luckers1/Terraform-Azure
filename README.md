@@ -37,7 +37,7 @@ Após o provisionamento, o Ansible configura a VM com:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/Terraform-Azure.git
+git clone https://github.com/Luckers1/Terraform-Azure.git
 cd Terraform-Azure
 ```
 
